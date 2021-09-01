@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  
+  <style>
+    body {
+      position: relative;
+    }
+
+    ul.nav-pills {
+      top: 20px;
+      position: fixed;
+    }
+
+    div.col-8 div {
+      height: 500px;
+    }
+  </style>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+  <!--<div class="jumbotron">
+    <div class="container">
+      <h1 style="text-align:center;color:orangered">Welcome to NIHONCH</h1>
+     
+    </div>
+  </div>-->
+  <div class="container-fluid" >
+    <div class="row">
+      <nav class="col-sm-3 col-3" id="myScrollspy" style="background-color: #b6ff00">
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a routerLink="/login" title="click here" class="nav-link" href="#section1">Authenticate</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/patientlogin" title="click here" class="nav-link" href="#section2">Patient login</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/adminlogin" title="click here" class="nav-link" href="#section3">Admin login</a>
+           
+          </li>
+          <li class="nav-item">
+            <a routerLink="/pharmacistlogin" title="click here" class="nav-link" href="#section4">Pharmacy login</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+  
+
+</body>
+</html>

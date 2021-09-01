@@ -1,0 +1,129 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  
+  <style>
+    body {
+      position: relative;
+    }
+
+  </style>
+</head>
+
+
+<body><div>data-spy="scroll" data-target=".navbar" data-offset="50"</div>
+      <div class="jumbotron text-center">
+        <h1 title="Nihon Chouzai Co.Ltd">NIHONCH</h1>
+        <p>NC telemedicine Pharmacy application can have a variety of features that might help to provide assistance to customers at a higher level</p>
+        <p> With the help of this application patients,admin,pharmacist can intract with each other for medical purpose,it mainly have following blocks</p>
+        <p><b>Patient login</b></p>
+        <p><b>Admin login login</b></p>
+        <p><b>Pharmacistlogin</b></p>
+      </div>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#patient" title="click here to view the patient login">Patient login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#admin" title="click here to view the admin login">Admin login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#pharmacist" title="click here to view the pharmacist login">Pharmacist login</a>
+      </li>
+
+    </ul>
+  </nav>
+
+  <div id="patient" class="container-fluid " style="padding-top:70px;padding-bottom:70px;background-color:#ffffff">
+    <h1>1.PATIENT LOGIN</h1>
+    <p>A registered patient can login to the application by using registered emailid and password,it will provide following functions.</p>
+    <h4>1.1 Pharmacy selection</h4>
+    <p>After login to the application the Patient have the option to select various pharmacy that are listed in the available pharmacy</p>
+    <h4>1.2 Appointments</h4>
+    <p>In this part a patient can view and create/modify the appointment with the pharmacist.while creating the appointment the patient can select date and slot after selecting both the patient want to confirm the slot,once this done patient can view the appointment and status</p>
+    <h4>1.3 Settings</h4>
+    <p>By clicking on seeting, patients can view their details like name, address etc. And patients are also provided with a option to update their email address. Patients also view the selected pharmacy details in the seeting page</p>
+    <h4>1.4 Payment</h4>
+    <p>Patients are provided with various payment options like "pay using cards,pay using other methods". Payments details are listed in payment history page and also  payment status is also displayed in the payment page likr"pending,success"</p>
+    <h4>1.5 Test audio/video</h4>
+    <p>This web application provide the users to test their audio and video before starting the meeting,once the testing is done patient must be wait in the lobby for pharmacist to start the meeting.patients can select appointment their own wish </p>
+    <h4>1.6 About the site</h4>
+    <p>this option provides the basic details about the application.The user can view the 'terms and condition,privacy policy,commercial terms', by using "help" patients can register the query. While writing the query the user wants to provide some information like name,phone number ,address etc.The frequently asked questions by the users are also shown in this page </p>
+    <h4>1.7 Okusuritechou plus</h4>
+    <p>This option provided to access the NC Digital Medidation notebook application.If this application already installed then by clicking on the link user can navigate to NC digital meditation notebook application, if not installed it will navigate to installation page </p>
+    <h4>1.8 Events</h4>
+    <p>this option is provided to view the events created by the admin. If any events are there it will be displayed to the user in this section</p>
+    <h4>1.9 Logout</h4>
+    <p>Logged user can logout from their profile by using logout option.If a person click on logout it will ask for confirmation</p>
+
+  </div>
+
+
+
+  <div id="admin" class="container-fluid " style="padding-top:70px;padding-bottom:70px;background-color:#808080">
+    <h1>2 Admin login</h1>
+    <p>registered admin can login to the application by using their user id and password,it will provide following functions</p>
+    <h4>2.1 Pharmacy selection</h4>
+    <p>Admin can search for a specific pharmacy by using pharmacy id, if required pharmacy found then admin can select it</p>
+    <h4>2.2 Pharmacy operation</h4>
+    <p>After selecting pharmacy admin can perfron following tasks</p>
+    <h6>2.2.1 Appointment</h6>
+
+    <p>admin can view and create/modify the appointment .while creating the appointment the admin can select patient id ,date and slot after selecting both the admin want to confirm the slot,once this done patient can view the appointment and status</p>
+
+    <h6>2.2.2 Patient setting</h6>
+    <p>Admin can search for a patient by using patient id, after selecting patient admin can able to update the patient details</p>
+    <h6>2.2.3 Notification settings</h6>
+    <p>This application also provide admin to set notifications when a new patient registration completed and also when a patient waiting in the lobby for a meeting with pharmacist</p>
+    <h4>2.3 Test audio/video</h4>
+    <p>with this web application admin can able  to test their audio and video before starting the meeting. </p>
+    <h4>2.4 FAQ</h4>
+    <p>FAQ section helps the admin to find the frequently asked question by the patient,  also this application provides an option to filter the patient queries based on their question  </p>
+    <h4>2.5  Events</h4>
+    <p>this application provide a feature to admin to create events, Admin can create events with informations like start time ,end time,description and required details. Once admin created the event it will be visible for both patient and pharmacist</p>
+
+    <h4>2.6 Logout</h4>
+    <p>Admin can logout buy clicking on logout bar</p>
+
+  </div>
+
+
+
+
+
+  <div id="pharmacist" class="container-fluid " style="padding-top:70px;padding-bottom:70px;background-color:#ffffff">
+    <h1>Pharmacist login</h1>
+    <p>Registered pharmacist can login to the application with credentials like pharmacist id and pharmacy code</p>
+    <h4>3.1 Pharmacy operation</h4>
+    <p>Being a pharmacist,pharmacist can able to create or modify appointment with the patients, so that pharmacist want to select appointment date ,slot etc. Once appointment is created it is listed in view appointment in both patient login,pharmacist and admin login.</p>
+    <p>By using patient setting a pharmacist can update patient details,pharmacy details ,pharmacist details and create payment for patients</p>
+
+    <h4>3.2 Test audio/video</h4>
+    <p>This web application provide the users to test their audio and video before starting the meeting,once the testing is done pharmacist can start the video conference with the patient </p>
+    <h4>3.3 About the site</h4>
+    <p>By using this option a pharmacist can view the frequently asked question by the patients and also filter the queries based on the action of query</p>
+    <h4>3.4 Events</h4>
+    <p>this option is provided to view the events created by the admin. If any events are there it will be displayed to the user in this section</p>
+    <h4>3.5 Logout</h4>
+    <p>Logged pharmacist can logout from their profile by using logout option</p>
+
+
+  </div>
+
+
+</body>
+</html>-->
+<app-common-layout></app-common-layout>
+
+
+
+<!--<app-login></app-login>-->
+
+<router-outlet></router-outlet>
+
+
+
+
+
